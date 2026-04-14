@@ -20,7 +20,7 @@ export const welcome = () => {
     };
 
     const generateParameterContent = () => {
-        const name = document.querySelector('#name');
+        const name = document.querySelector('name');
         const params = getQueryParameter('to');
 
         if (params) {
