@@ -24,7 +24,8 @@ export const welcome = () => {
         const params = getQueryParameter('to');
 
         if (params) {
-            weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
+            //weddingToElement.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
+            name.innerHTML = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>${params}</span>`;
             //weddingToElement.textContent = `Kepada Yth Bapak/Ibu/Saudara/i<br><span>[urlparam param="to" default="Temanku" /]</span>`;
             name.value = params;
         } else {
